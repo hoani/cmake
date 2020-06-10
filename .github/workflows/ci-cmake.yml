@@ -32,6 +32,4 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Test
-      run: |
-        ls
-        ./build/Test
+      run: ./build/Test
