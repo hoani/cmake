@@ -1,5 +1,5 @@
 #include "catch.hpp"
-#include "Adder.h"
+#include "adder.h"
 
 TEST_CASE( "Adding cases", "[Adder]" ) 
 { 
