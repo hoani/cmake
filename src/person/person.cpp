@@ -7,7 +7,6 @@ Person::Person(IZodiac * zodiac, std::string name) : _birth(nullptr), _name(name
 }
 
 Person::~Person() {
-  delete _birth;
 }
 
 void Person::SetBirthday(int day, int month, int year) {
