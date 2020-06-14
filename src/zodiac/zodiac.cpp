@@ -36,6 +36,5 @@ std::string Zodiac::GetString(const std::tm * date) {
   int animal_index = zodiac_cycle % 12;
   int element_index = (zodiac_cycle/2) % 5;
 
-
   return kElements[element_index] + " " + kAnimals[animal_index];
 }
