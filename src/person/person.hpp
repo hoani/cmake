@@ -8,7 +8,7 @@
 class Person
 {
 private:
-  std::tm * _birth;
+  std::tm _birth;
   std::string _name;
   IZodiac * _zodiac;
 public:
