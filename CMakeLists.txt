@@ -14,9 +14,10 @@ set (source_dir  "${PROJECT_SOURCE_DIR}/src/")
 
 file (GLOB source_files "${source_dir}*.cpp")
 
-add_executable(App ${source_files} ./main.cpp)
+add_subdirectory(src)
 
-target_include_directories(App PRIVATE ${source_dir})
+add_executable(App ./main.cpp)
+target_link_libraries(App Zodiac Person)
 
 add_subdirectory(test)
 
